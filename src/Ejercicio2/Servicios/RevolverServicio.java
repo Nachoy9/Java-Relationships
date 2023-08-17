@@ -22,7 +22,7 @@ public class RevolverServicio {
 
     public void siguientePosicion() {
 
-        if (revolver.getPosicionTambor() == 6) {
+        if (revolver.getPosicionTambor() == 5) {
             revolver.setPosicionTambor(0);
         } else {
             revolver.setPosicionTambor(revolver.getPosicionTambor()+1);
